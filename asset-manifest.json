@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Desafio-React/static/css/main.d7a08438.chunk.css",
-    "main.js": "/Desafio-React/static/js/main.9663fe33.chunk.js",
-    "main.js.map": "/Desafio-React/static/js/main.9663fe33.chunk.js.map",
-    "runtime-main.js": "/Desafio-React/static/js/runtime-main.763e9c9b.js",
-    "runtime-main.js.map": "/Desafio-React/static/js/runtime-main.763e9c9b.js.map",
-    "static/js/2.d9f642d6.chunk.js": "/Desafio-React/static/js/2.d9f642d6.chunk.js",
-    "static/js/2.d9f642d6.chunk.js.map": "/Desafio-React/static/js/2.d9f642d6.chunk.js.map",
-    "index.html": "/Desafio-React/index.html",
-    "static/css/main.d7a08438.chunk.css.map": "/Desafio-React/static/css/main.d7a08438.chunk.css.map",
-    "static/js/2.d9f642d6.chunk.js.LICENSE.txt": "/Desafio-React/static/js/2.d9f642d6.chunk.js.LICENSE.txt"
+    "main.css": "/desafio-react/static/css/main.d7a08438.chunk.css",
+    "main.js": "/desafio-react/static/js/main.9663fe33.chunk.js",
+    "main.js.map": "/desafio-react/static/js/main.9663fe33.chunk.js.map",
+    "runtime-main.js": "/desafio-react/static/js/runtime-main.ffc93570.js",
+    "runtime-main.js.map": "/desafio-react/static/js/runtime-main.ffc93570.js.map",
+    "static/js/2.d9f642d6.chunk.js": "/desafio-react/static/js/2.d9f642d6.chunk.js",
+    "static/js/2.d9f642d6.chunk.js.map": "/desafio-react/static/js/2.d9f642d6.chunk.js.map",
+    "index.html": "/desafio-react/index.html",
+    "static/css/main.d7a08438.chunk.css.map": "/desafio-react/static/css/main.d7a08438.chunk.css.map",
+    "static/js/2.d9f642d6.chunk.js.LICENSE.txt": "/desafio-react/static/js/2.d9f642d6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.763e9c9b.js",
+    "static/js/runtime-main.ffc93570.js",
     "static/js/2.d9f642d6.chunk.js",
     "static/css/main.d7a08438.chunk.css",
     "static/js/main.9663fe33.chunk.js"
