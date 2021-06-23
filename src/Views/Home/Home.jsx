@@ -23,14 +23,13 @@ function Home() {
   
   async function getProfile(){
     const res = await axios.get(`https://api.github.com/users/${user}`)
-    setAvatar(res.data.avatar_url)
-    setName(res.data.name)
-    setCompany(res.data.company)
-    setSocialMedia(res.data.twitter_username)
+    setAvatar(res.data.avatar_url != null ? res.data.avatar_url : "Nenhum")
+    setName(res.data.name != null ? res.data.name : "Nenhum")
+    setCompany(res.data.company != null ? res.data.company : "Nenhuma")
+    setSocialMedia(res.data.twitter_username != null ? res.data.twitter_username : "Nenhum")
     setRepos(res.data.public_repos)
-    setBio(res.data.bio)
-    setLocation(res.data.location)
-    console.log(res)
+    setBio(res.data.bio !== null ? res.data.bio : "Nenhuma")
+    setLocation(res.data.location !== null ? res.data.location : "Não definida")
   }
 
   useEffect(() => {
@@ -39,6 +38,7 @@ function Home() {
 
   return (
     <section className='Home'>
+      <img className="logo" src="https://logosmarcas.net/wp-content/uploads/2020/12/GitHub-Logo.png" alt="Logo do GitHub" />
     <div className="main-container">
         <input type="text" placeholder="Insira o nome do usuário" value={user} ref={inputElement} onChange={(event) => setUser(event.target.value)}/>
         <button onClick={()=> {setMakeRequest(true); getProfile()}}>BUSCAR</button>

@@ -1,0 +1,28 @@
+.user-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.TextSection{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    gap: 30px;
+}
+
+.FirstSection{
+    width: 50%;
+}
+
+.SecondSection{
+    width: 50%;
+}
+
+
+.user-card img{
+    width: 200px;
+    height: 200px;
+}
